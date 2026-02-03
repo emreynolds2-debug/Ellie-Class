@@ -1,10 +1,41 @@
 /*styles go here*/
+p {
+	color: black;
+}
+
+#first-paragraph-style {
+  color: black;
+  font-weight: bold;
+}
+
 #container {
 	text-align: center;
+	font-family: Georgia, "Times New Roman", sans-serif;
 
 }
 
 #header {
-	sty
 	text-align: center;
+	color: skyblue;
+	font-family: cursive;
+	font-size: 0.8em;
 }
+
+#nav {
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav a:link, a:visited {
+	display: block;
+	color: white;
+	background-color: skyblue;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 10px;
+}
+
+#nav a:hover, a:active {
+	background-color: purple;
