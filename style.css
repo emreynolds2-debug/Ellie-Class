@@ -49,4 +49,40 @@ p {
 }
 
 #nav a:hover, a:active {
-	background-color: purple;
+	background-color: goldenrod;
+}
+
+.navigation{
+  list-style: none;
+  background: steelblue;
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-flow:column;
+}
+
+@media (min-width:800px) {
+	.navigation {
+		flex-flow: row;
+		justify-content: flex-end;
+	}
+	.navigation a{
+  border-top:none;
+  border-bottom:none;
+  }
+	.navigation a:hover{
+  background:gold;
+  }
+
+  .container {
+  flex-flow: row;
+}
+
+
+.aside-1{
+  background: gold;
+}
+
+.aside-2{
+  background: steelblue;
+}
