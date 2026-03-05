@@ -86,3 +86,51 @@ p {
 .aside-2{
   background: steelblue;
 }
+
+
+
+
+
+@media screen and (min-width: 600px) {
+#aricle{
+	display: grid;
+	grid-template-columns: 200px 1fr 1fr;
+	grid-gap: 20px;
+    grid-template-areas: 
+      "a b b"
+      "c c e"
+      ". d d";
+
+  }
+
+  .first-paragraph-style {
+    width: 100%;
+    grid-area: a;
+  }
+  .nav {
+    grid-area: b;
+  }
+  .second-paragraph-style  {
+    grid-area: c;
+  }
+  .list {
+    grid-area: d;
+  }
+  .pullquote {
+    grid-area: e;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+
+}
+
+
+
+@media screen and (min-width: 1000px){
+
+
+
+}
