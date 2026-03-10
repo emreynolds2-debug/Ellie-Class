@@ -102,9 +102,6 @@ p {
   .list {
     grid-area: d;
   }
-  .pullquote {
-    grid-area: e;
-    margin: 0;
   }
 
 
