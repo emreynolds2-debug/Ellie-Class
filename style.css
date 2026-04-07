@@ -5,16 +5,26 @@ html {
   }
 
 p {
-	color: black;
+	color: #423000;
 	font-family: "Merriweather", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
 
 }
 
+
 #first-paragraph-style {
-  color: black;
-  font-weight: bold;
+  color: #423000;
+}
+
+#header2 {
+  text-align: center;
+  color: #423000;
+}
+
+#header3 {
+  text-align: center;
+  color: #423000;
 }
 
 #container {
@@ -25,11 +35,10 @@ p {
 
 #header {
 	text-align: center;
-	color: skyblue;
-	/*font-family: cursive;*/
-	font-family: "Merriweather Sans", Georgia, "Times New Roman", serif;
+	color: #423000;
+  background-color: #92853f;
+	font-family: cursive;
   font-size: 3rem;
-	/*font-size: 0.8em;*/
 }
 
 #nav {
@@ -40,8 +49,7 @@ p {
 #nav a:link, a:visited {
 	display: block;
 	color: white;
-	background-color: skyblue;
-	font-weight: bold;
+	background-color: #154314;
 	text-align: center;
 	text-decoration: none;
 	font-family: Helvetica, Arial, sans-serif;
@@ -54,11 +62,17 @@ p {
 
 .navigation{
   list-style: none;
-  background: steelblue;
+  color: black;
   margin:0;
   padding: 0;
   display: flex;
   flex-flow:column;
+}
+
+.footer{
+  text-align: center;
+  color: #423000;
+  background-color: #92853f;
 }
 
 @media (min-width:800px) {
@@ -71,7 +85,7 @@ p {
   border-bottom:none;
   }
 	.navigation a:hover{
-  background:gold;
+  background:#154314;
   }
 
   .container {
@@ -136,6 +150,7 @@ p {
         ". . . e"
         ". . d d";
   }
+
 
 
 }
