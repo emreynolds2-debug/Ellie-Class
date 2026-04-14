@@ -60,13 +60,18 @@ p {
 	background-color: goldenrod;
 }
 
-.navigation{
+.navigation {
   list-style: none;
   color: black;
   margin:0;
   padding: 0;
   display: flex;
-  flex-flow:column;
+  flex-flow:row;
+}
+
+.navigation li {
+
+
 }
 
 .footer{
